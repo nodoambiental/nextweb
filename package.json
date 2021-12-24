@@ -1,5 +1,5 @@
 {
-	"name": "experiment",
+	"name": "nextweb",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "svelte-kit dev",
@@ -12,28 +12,32 @@
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
+		"@iconify-icons/fa-brands": "^1.1.1",
+		"@iconify-icons/fa-regular": "^1.1.0",
+		"@iconify-icons/fa-solid": "^1.1.1",
+		"@iconify-icons/mdi": "^1.1.42",
+		"@iconify-icons/twemoji": "^1.1.2",
+		"@iconify/svelte": "^2.1.0",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "^4.31.1",
 		"@typescript-eslint/parser": "^4.31.1",
 		"autoprefixer": "^10.4.0",
+		"daisyui": "^1.19.0",
 		"eslint": "^7.32.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^3.2.1",
+		"mdsvex": "^0.9.8",
 		"prettier": "^2.4.1",
 		"prettier-plugin-svelte": "^2.4.0",
 		"svelte": "^3.44.0",
 		"svelte-check": "^2.2.6",
+		"svelte-cubed": "^0.2.1",
 		"svelte-preprocess": "^4.10.1",
 		"tailwindcss": "^3.0.7",
-		"tslib": "^2.3.1",
-		"typescript": "^4.4.3",
-		"mdsvex": "^0.9.8",
 		"three": "^0.135.0",
-		"svelte-cubed": "^0.2.1"
+		"tslib": "^2.3.1",
+		"typescript": "^4.4.3"
 	},
-	"type": "module",
-	"dependencies": {
-		"daisyui": "^1.19.0"
-	}
+	"type": "module"
 }
