@@ -1,11 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-<span class="countdown">
-    <span style="--value: 60;"></span>
-  </span>
+<script lang='ts'>
+  import {Navigation} from '@components';
+</script>
+
+<Navigation/>
+<h1>Nodo</h1>
+<div>
+  <h2>Some placeholder buttons, look how pretty!</h2>
   <button class="btn">neutral</button> 
-<button class="btn btn-primary">primary</button> 
-<button class="btn btn-secondary">secondary</button> 
-<button class="btn btn-accent">accent</button> 
-<button class="btn btn-ghost">ghost</button> 
-<button class="btn btn-link">link</button>
+  <button class="btn btn-primary">primary</button> 
+  <button class="btn btn-secondary">secondary</button> 
+  <button class="btn btn-accent">accent</button> 
+</div>

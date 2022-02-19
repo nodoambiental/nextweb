@@ -24,7 +24,20 @@
 		"checkJs": true,
 		"paths": {
 			"$lib": ["src/lib"],
-			"$lib/*": ["src/lib/*"]
+			"$lib/*": ["src/lib/*"],
+			"@components": ["src/components"],
+			"@components/base": ["src/components/base"],
+			"@components/style": ["src/components/style"],
+			"@components/data": ["src/components/data"],
+			"@components/model": ["src/components/model"],
+			"@utility": ["src/util"],
+			"@static": ["static"],
+			"@static/fonts": ["static/fonts"],
+			"@images": ["static/image/raster"],
+			"@vector/light": ["static/image/vector/light"],
+			"@vector/dark": ["static/image/vector/dark"],
+			"@routes": ["src/routes"],
+			"@store": ["src/util/stash"]
 		}
 	},
 	"include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.ts", "src/**/*.svelte"]
